@@ -1,0 +1,15 @@
+Set the top level directory (where this file is locate) to ANYKERNEL_ROOT:
+
+	$ export ANYKERNEL_ROOT=$PWD
+
+Install the kernel image and modules from your kernel root directory:
+
+	$ cp arch/arm/boot/zImage $ANYKERNEL_ROOT/kernel/
+	$ find . -name '*.ko' -exec cp {} $ANYKERNEL_ROOT/system/lib/modules/ \;
+
+Create a zip file for flashing
+
+	$ cd $ANYKERNEL_ROOT
+	$ 7z a ../kernel_update.zip .
+
+Copy the kernel_update.zip to your GTab and flash from recovery

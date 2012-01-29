@@ -1,0 +1,33 @@
+Manifest-Version: 1.0
+Created-By: 1.0 (Android SignApk)
+
+Name: kernel/unpackbootimg.sh
+SHA1-Digest: r7uNP9vytN8IyywfZ9rCRPgKZWM=
+
+Name: kernel/dump_image
+SHA1-Digest: nBMIIWOti0pMG0+kSuA0xJZain4=
+
+Name: META-INF/com/google/android/updater-script
+SHA1-Digest: 6nxaDoFSXkzXOPTSTL964BqZBoc=
+
+Name: kernel/zImage
+SHA1-Digest: xma8CBuf/olTX0kGx3XqcMaNibo=
+
+Name: kernel/mkbootimg
+SHA1-Digest: TpThOk2zHC3XkGrOtFXxywjpo3s=
+
+Name: system/lib/modules/2.6.32.27-cyanogenmod/placeholder
+SHA1-Digest: 2jmj7l5rSw0yVb/vlWAYkK/YBwk=
+
+Name: kernel/unpackbootimg
+SHA1-Digest: trEroJzp1/hR/7TFKcp+rl/w9Gw=
+
+Name: kernel/mkbootimg.sh
+SHA1-Digest: FSJOPIWWsenAEIoM34ZeoL1goK8=
+
+Name: system/lib/hw/wlan/bcm4329.ko
+SHA1-Digest: 0THc0tm10p06b3UGaEi7xV5rs7E=
+
+Name: META-INF/com/google/android/update-binary
+SHA1-Digest: J1Ti6IiDmtzELVH5Uu8DZqn8cOU=
+
