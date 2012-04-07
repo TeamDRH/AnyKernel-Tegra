@@ -1,6 +1,10 @@
-Set the top level directory (where this file is locate) to ANYKERNEL_ROOT:
+Set the top level directory (where this file is located) to ANYKERNEL_ROOT:
 
 	$ export ANYKERNEL_ROOT=$PWD
+
+Delete any old modules that may exist from a previous version:
+
+	$ rm $ANYKERNEL_ROOT/system/lib/modules/*.ko
 
 Install the kernel image and modules from your kernel root directory:
 
